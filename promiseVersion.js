@@ -73,3 +73,4 @@ function doSummerChores(name) {
     });
 }
 
+doSummerChores("Alice");
