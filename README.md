@@ -38,3 +38,33 @@ node callbackVersion.js
 ```
 
 Try running it multiple times to observe different outcomes due to the random "falling asleep" logic.
+
+
+---
+
+# Summer Chores - Promise Version
+
+## File: `promiseVersion.js`
+
+### Purpose
+
+This version uses Promises instead of callbacks and uses `.then()` chaining to make the sequence of summer chores.
+
+### Function Breakdown
+
+- `mowYard(name)`
+- `weedEat(name)`
+- `trimHedges(name)`
+- `collectWood(name)`
+- `waterGarden(name)`
+- `doSummerChores(name)`: Starts the Promise chain and logs success only if all chores are completed.
+
+### How to Run
+
+This script can also be run with Node.js:
+
+```bash
+node promiseVersion.js
+```
+
+Like the callback version, this uses randomized chances for the person to fall asleep before completing a chore.
