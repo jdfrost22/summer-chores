@@ -67,4 +67,28 @@ This script can also be run with Node.js:
 node promiseVersion.js
 ```
 
-Like the callback version, this uses randomized chances for the person to fall asleep before completing a chore.
+
+---
+
+# Summer Chores - Async/Await Version
+
+## File: `asyncAwaitVersion.js`
+
+### Purpose
+
+This version uses `async/await` to handle asynchronous functions in a more readable way than chained promises or callbacks.
+
+### Function Breakdown
+
+- `mowYard(name)`
+- `weedEat(name)`
+- `trimHedges(name)`
+- `collectWood(name)`
+- `waterGarden(name)`
+- `doSummerChores(name)`: Uses async/await to run all chores in order and log success only if all chores are completed.
+
+### How to Run
+
+```bash
+node asyncAwaitVersion.js
+```
